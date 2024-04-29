@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControlDAMMebani.BravoPage"
+             Title="Bravo...!">
+    <VerticalStackLayout>
+        <Label x:Name="l"
+            Text="Bravo...!The number of times you login is correct : "
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" TextColor="Violet"/>
+        
+        <Button x:Name="Retour" 
+                Text="Return"
+                Clicked="Retour_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

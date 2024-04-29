@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControlDAMMebani.HelloPage"
+             Title="Hello...!">
+    <VerticalStackLayout>
+        <Label x:Name="l"
+     Text="Hello...!,saisi le mot de pass svp"
+     VerticalOptions="Center" 
+     HorizontalOptions="Center" />
+        <Editor
+     x:Name="sisir"/>
+        <Button
+     x:Name="test"
+     Text="Entrer"
+     Clicked="test_Clicked"
+     />
+    </VerticalStackLayout>
+</ContentPage>
